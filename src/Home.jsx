@@ -5,7 +5,8 @@ function Home() {
   return (
     <div>
       Home <br />
-      <Link to={"/login"}>Login</Link>
+      <Link to={"/login"}>Login</Link><br />
+      <Link to={"/insta"}>Insta</Link>
     </div>
   )
 }

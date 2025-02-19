@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Home from './hOME.JSX'
 import { Route, Routes } from 'react-router-dom'
 import Login from './Login'
+import Home from './Home'
 
 function App() {
   const [count, setCount] = useState(0)
